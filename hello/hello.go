@@ -3,5 +3,11 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Println("hello YU!!")
+	var minimunWage int = 10
+	var workingHour int = 20
+
+	var income int = minimunWage * workingHour
+	var msg string = "Good Mornig!"
+
+	fmt.Println(minimunWage, workingHour, income, msg)
 }
